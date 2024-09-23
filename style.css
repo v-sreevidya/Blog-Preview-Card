@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Custom';
+    src: url('static/Figtree-Regular.ttf') format('truetype');
+    font-weight: 500; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Custom';
+    src: url('static/Figtree-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.grid{
+    background-color: white;
+    width: 350px;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow:10px 10px 10px  black ;
+    
+    
+}
+.box{
+    
+    width: 320px;
+    height: auto;
+   transform: translateY(50px);
+    overflow: hidden;
+    position: static;
+    
+    
+}
+.box img{
+   
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   
+   border-radius: 10px;
+
+    
+}
+
+.date{
+    /* background-color: brown; */
+    width: 200px;
+    margin-top:-100px;
+    
+}
+.button{
+    background-color: yellow;
+    width: 80px;
+    height: 4vh;
+    margin-top: 170px;
+    
+    transform: translate(-55px,15px);
+    border-radius: 5px;
+    
+}
+.button p{
+    color: black;
+    font-weight: bolder;
+    justify-content: center;
+    font-family: 'Custom';
+    font-weight: 800;
+    transform: translateY(-14px);
+}
+.datepub{
+    
+    color: hsl(0, 0%, 7%);
+    
+    margin-top:-5px;
+    transform: translate(-55px,15px);
+    font-size: 12px;
+    font-family: 'Custom';
+    font-weight: 500;
+    
+}
+
+.head{
+    color:hsl(0, 0%, 7%) ;
+    font-family: 'Custom';
+    font-weight: 800;
+    font-size: 16px;
+    transform: translateX(-60px);
+   margin-bottom: -15px;
+   transition: color 0.3s ease;
+   
+    
+}
+.head:hover{
+    color: hsl(47, 88%, 63%);
+}
+.contentp{
+    
+    color: hsl(0, 0%, 42%);
+    font-family: 'Custom';
+    font-weight: 500;
+    font-size: 15px;
+    transform: translateY(0px);
+   
+    
+    padding: 20px;
+}
+
+.im{
+    width: 40px;
+    
+    margin-left: -65px;
+    transform: translateX(-90px);
+
+}
+.image{
+    font-family: 'Custom';
+    font-size: 12px;
+    font-weight: 800;
+    transform: translateY(-40px);
+    margin-left: -100px;
+}
